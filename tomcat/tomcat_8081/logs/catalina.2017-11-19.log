@@ -1,0 +1,299 @@
+19-Nov-2017 06:10:38.583 警告 [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/home/opt/tomcat-instance/tomcat_8081/webapps/] does not meet these criteria and has been changed to [/home/opt/tomcat-instance/tomcat_8081/webapps]
+19-Nov-2017 06:10:38.637 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+19-Nov-2017 06:10:38.765 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+19-Nov-2017 06:10:38.769 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+19-Nov-2017 06:10:38.769 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+19-Nov-2017 06:10:38.769 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2017 06:10:38.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-431.el6.x86_64
+19-Nov-2017 06:10:38.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2017 06:10:38.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/opt/jdk8/jdk1.8.0_151/jre
+19-Nov-2017 06:10:38.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Nov-2017 06:10:38.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2017 06:10:38.772 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:10:38.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:10:38.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/opt/tomcat-instance/tomcat_8081/conf/logging.properties
+19-Nov-2017 06:10:38.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2017 06:10:38.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2017 06:10:38.775 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2017 06:10:38.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/tools/apache-tomcat-8.0.39/endorsed
+19-Nov-2017 06:10:38.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:10:38.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:10:38.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/opt/tomcat-instance/tomcat_8081/temp
+19-Nov-2017 06:10:38.779 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Nov-2017 06:10:39.383 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:10:39.516 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2017 06:10:39.520 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2522 ms
+19-Nov-2017 06:10:39.637 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Nov-2017 06:10:39.637 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+19-Nov-2017 06:10:41.820 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:10:41.841 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2320 ms
+19-Nov-2017 06:12:26.025 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2017 06:12:26.026 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:12:26.038 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Nov-2017 06:12:26.093 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:12:26.095 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:12:27.528 警告 [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/home/opt/tomcat-instance/tomcat_8081/webapps/] does not meet these criteria and has been changed to [/home/opt/tomcat-instance/tomcat_8081/webapps]
+19-Nov-2017 06:12:27.545 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+19-Nov-2017 06:12:27.604 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+19-Nov-2017 06:12:27.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+19-Nov-2017 06:12:27.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+19-Nov-2017 06:12:27.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2017 06:12:27.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-431.el6.x86_64
+19-Nov-2017 06:12:27.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2017 06:12:27.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/opt/jdk8/jdk1.8.0_151/jre
+19-Nov-2017 06:12:27.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Nov-2017 06:12:27.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2017 06:12:27.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:12:27.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:12:27.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/opt/tomcat-instance/tomcat_8081/conf/logging.properties
+19-Nov-2017 06:12:27.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2017 06:12:27.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2017 06:12:27.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2017 06:12:27.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/tools/apache-tomcat-8.0.39/endorsed
+19-Nov-2017 06:12:27.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:12:27.618 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:12:27.618 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/opt/tomcat-instance/tomcat_8081/temp
+19-Nov-2017 06:12:27.619 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Nov-2017 06:12:28.077 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:12:28.115 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2017 06:12:28.118 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1726 ms
+19-Nov-2017 06:12:28.179 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Nov-2017 06:12:28.180 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+19-Nov-2017 06:12:29.130 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:12:29.148 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1029 ms
+19-Nov-2017 06:13:50.501 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2017 06:13:50.501 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:13:50.511 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Nov-2017 06:13:50.573 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:13:50.574 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:13:52.108 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+19-Nov-2017 06:13:52.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+19-Nov-2017 06:13:52.187 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+19-Nov-2017 06:13:52.187 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+19-Nov-2017 06:13:52.187 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2017 06:13:52.188 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-431.el6.x86_64
+19-Nov-2017 06:13:52.188 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2017 06:13:52.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/opt/jdk8/jdk1.8.0_151/jre
+19-Nov-2017 06:13:52.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Nov-2017 06:13:52.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2017 06:13:52.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:13:52.190 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:13:52.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/opt/tomcat-instance/tomcat_8081/conf/logging.properties
+19-Nov-2017 06:13:52.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2017 06:13:52.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2017 06:13:52.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2017 06:13:52.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/tools/apache-tomcat-8.0.39/endorsed
+19-Nov-2017 06:13:52.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:13:52.193 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:13:52.193 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/opt/tomcat-instance/tomcat_8081/temp
+19-Nov-2017 06:13:52.197 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Nov-2017 06:13:52.624 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:13:52.673 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2017 06:13:52.676 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1739 ms
+19-Nov-2017 06:13:52.759 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Nov-2017 06:13:52.759 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+19-Nov-2017 06:13:53.707 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:13:53.731 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1054 ms
+19-Nov-2017 06:14:19.862 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2017 06:14:19.863 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:14:19.870 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Nov-2017 06:14:20.023 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:14:20.025 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:14:21.471 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+19-Nov-2017 06:14:21.539 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+19-Nov-2017 06:14:21.543 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+19-Nov-2017 06:14:21.543 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+19-Nov-2017 06:14:21.543 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2017 06:14:21.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-431.el6.x86_64
+19-Nov-2017 06:14:21.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2017 06:14:21.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/opt/jdk8/jdk1.8.0_151/jre
+19-Nov-2017 06:14:21.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Nov-2017 06:14:21.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2017 06:14:21.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:14:21.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:14:21.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/opt/tomcat-instance/tomcat_8081/conf/logging.properties
+19-Nov-2017 06:14:21.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2017 06:14:21.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2017 06:14:21.548 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2017 06:14:21.548 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/tools/apache-tomcat-8.0.39/endorsed
+19-Nov-2017 06:14:21.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 06:14:21.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tools/apache-tomcat-8.0.39
+19-Nov-2017 06:14:21.553 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/opt/tomcat-instance/tomcat_8081/temp
+19-Nov-2017 06:14:21.553 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Nov-2017 06:14:21.994 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:14:22.062 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2017 06:14:22.069 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1755 ms
+19-Nov-2017 06:14:22.141 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Nov-2017 06:14:22.141 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+19-Nov-2017 06:14:23.329 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 06:14:23.342 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1271 ms
+19-Nov-2017 08:11:32.162 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2017 08:11:32.166 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:11:32.266 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Nov-2017 08:11:32.340 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:11:32.342 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:26:44.855 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+19-Nov-2017 08:26:44.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+19-Nov-2017 08:26:44.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+19-Nov-2017 08:26:44.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+19-Nov-2017 08:26:44.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2017 08:26:44.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-431.el6.x86_64
+19-Nov-2017 08:26:44.926 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2017 08:26:44.926 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/opt/jdk8/jdk1.8.0_151/jre
+19-Nov-2017 08:26:44.926 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Nov-2017 08:26:44.926 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2017 08:26:44.927 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 08:26:44.927 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tools/apache-tomcat-8.0.39
+19-Nov-2017 08:26:44.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/opt/tomcat-instance/tomcat_8081/conf/logging.properties
+19-Nov-2017 08:26:44.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2017 08:26:44.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2017 08:26:44.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2017 08:26:44.933 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/tools/apache-tomcat-8.0.39/endorsed
+19-Nov-2017 08:26:44.933 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 08:26:44.934 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tools/apache-tomcat-8.0.39
+19-Nov-2017 08:26:44.934 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/opt/tomcat-instance/tomcat_8081/temp
+19-Nov-2017 08:26:44.934 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Nov-2017 08:26:45.482 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:26:45.547 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2017 08:26:45.554 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2019 ms
+19-Nov-2017 08:26:45.642 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Nov-2017 08:26:45.643 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+19-Nov-2017 08:26:46.886 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:26:46.901 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1346 ms
+19-Nov-2017 08:29:32.192 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+19-Nov-2017 08:29:32.331 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+19-Nov-2017 08:29:32.332 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+19-Nov-2017 08:29:32.332 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+19-Nov-2017 08:29:32.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2017 08:29:32.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-431.el6.x86_64
+19-Nov-2017 08:29:32.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2017 08:29:32.336 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/opt/jdk8/jdk1.8.0_151/jre
+19-Nov-2017 08:29:32.336 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Nov-2017 08:29:32.337 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2017 08:29:32.337 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 08:29:32.338 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tools/apache-tomcat-8.0.39
+19-Nov-2017 08:29:32.339 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/opt/tomcat-instance/tomcat_8081/conf/logging.properties
+19-Nov-2017 08:29:32.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2017 08:29:32.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2017 08:29:32.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2017 08:29:32.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/tools/apache-tomcat-8.0.39/endorsed
+19-Nov-2017 08:29:32.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 08:29:32.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tools/apache-tomcat-8.0.39
+19-Nov-2017 08:29:32.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/opt/tomcat-instance/tomcat_8081/temp
+19-Nov-2017 08:29:32.343 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Nov-2017 08:29:32.797 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:29:32.857 严重 [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8081"]
+ java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:351)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:760)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:580)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:603)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+19-Nov-2017 08:29:32.860 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8081]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8081]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:580)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:603)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:351)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:760)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+19-Nov-2017 08:29:32.863 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1883 ms
+19-Nov-2017 08:29:32.927 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Nov-2017 08:29:32.928 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+19-Nov-2017 08:29:34.047 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1184 ms
+19-Nov-2017 08:29:34.086 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:1005]: 
+ java.net.BindException: 地址已在使用 (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:438)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:717)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+19-Nov-2017 08:29:34.091 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:29:34.093 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Nov-2017 08:29:34.145 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:29:34.145 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:29:34.775 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2017 08:29:34.776 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:29:34.785 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Nov-2017 08:29:34.853 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 08:29:34.856 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 10:34:32.323 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+19-Nov-2017 10:34:32.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+19-Nov-2017 10:34:32.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+19-Nov-2017 10:34:32.411 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+19-Nov-2017 10:34:32.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2017 10:34:32.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-431.el6.x86_64
+19-Nov-2017 10:34:32.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2017 10:34:32.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/opt/jdk8/jdk1.8.0_151/jre
+19-Nov-2017 10:34:32.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Nov-2017 10:34:32.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2017 10:34:32.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 10:34:32.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tools/apache-tomcat-8.0.39
+19-Nov-2017 10:34:32.422 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/opt/tomcat-instance/tomcat_8081/conf/logging.properties
+19-Nov-2017 10:34:32.422 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2017 10:34:32.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2017 10:34:32.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2017 10:34:32.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/tools/apache-tomcat-8.0.39/endorsed
+19-Nov-2017 10:34:32.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/opt/tomcat-instance/tomcat_8081
+19-Nov-2017 10:34:32.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tools/apache-tomcat-8.0.39
+19-Nov-2017 10:34:32.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/opt/tomcat-instance/tomcat_8081/temp
+19-Nov-2017 10:34:32.429 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Nov-2017 10:34:32.902 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 10:34:32.966 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2017 10:34:32.972 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1995 ms
+19-Nov-2017 10:34:33.058 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Nov-2017 10:34:33.062 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+19-Nov-2017 10:34:34.391 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+19-Nov-2017 10:34:34.406 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1432 ms
